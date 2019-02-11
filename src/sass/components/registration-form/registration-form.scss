@@ -1,5 +1,5 @@
 .background {
-  background-image: url("../../../images/first-screen/first-screen.jpg");
+  background-image: url("../images/first-screen/first-screen.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -28,7 +28,7 @@
     content: "";
     display: inline-block;
     position: absolute;
-    background-image: url("../../../images/close-button.png");
+    background-image: url("../images/close-button.png");
     background-size: 80%;
     background-repeat: no-repeat;
     background-position: center;
@@ -81,7 +81,7 @@
   &::before {
     content: "";
     display: inline-block;
-    background-image: url("../../../images/progress-bar/bars.png");
+    background-image: url("../images/progress-bar/bars.png");
     opacity: 0.3;
     width: 516px;
     height: 28px;
@@ -177,7 +177,7 @@ input::placeholder {
 .registration__safety {
   @extend .primary-text-style;
   color: $placeholder-text-color;
-  background-image: url("../../../images/lock.png");
+  background-image: url("../images/lock.png");
   padding-left: 25px;
   background-repeat: no-repeat;
 }
