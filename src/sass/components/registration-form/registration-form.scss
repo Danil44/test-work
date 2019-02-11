@@ -16,9 +16,9 @@
 
 .registration-section {
   width: 820px;
-  min-height: 648px;
+  min-height: 629px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%);
   background-color: $primary-light-color;
@@ -33,11 +33,10 @@
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
-
     width: 30px;
     height: 30px;
-    top: 3%;
-    right: 3%;
+    top: 1%;
+    right: 1%;
   }
 }
 
@@ -47,19 +46,19 @@
 
 .registration__content {
   width: 651px;
-  margin: 80px auto 93px;
+  margin: 81px auto 50px;
   overflow: hidden;
   position: relative;
 }
 
 .registration__progress {
-  margin-bottom: 54px;
+  margin-bottom: 45px;
 }
 
 .progress-bar {
   width: 650px;
   height: 28px;
-  margin-bottom: 19px;
+  margin-bottom: 14px;
   background-color: #ebebeb;
   background-image: linear-gradient(
     180deg,
@@ -92,7 +91,7 @@
   @extend .primary-text-style;
   font-weight: 500;
   position: absolute;
-  right: 45%;
+  right: 42%;
   top: 27%;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
   color: $primary-light-color;
@@ -116,6 +115,14 @@
   cursor: default;
 }
 
+.name-field {
+  margin-bottom: 10px;
+}
+
+.email-field {
+  margin-bottom: 10px;
+}
+
 .text__marked {
   @extend .primary-text-style;
   color: $marked-text-color;
@@ -131,7 +138,6 @@ input {
   margin-top: 5px;
   margin-left: 5px;
   padding-bottom: 2px;
-
 }
 
 input:focus {
@@ -146,13 +152,13 @@ input::placeholder {
 }
 
 .form-text:last-of-type {
-  margin-bottom: 61px;
+  margin-bottom: 51px;
 }
 
 .registration__btn {
   @extend .primary-text-style;
   margin: 0 auto;
-  padding: 24px 170px 26px;
+  padding: 23px 173px 24px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
