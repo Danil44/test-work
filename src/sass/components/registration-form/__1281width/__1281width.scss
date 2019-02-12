@@ -20,7 +20,7 @@
 
   .progress__text {
     line-height: 22px;
-    letter-spacing: 0.80px;
+    letter-spacing: 0.8px;
   }
 
   .progress-bar {
@@ -70,6 +70,10 @@
   input {
     position: absolute;
     margin-top: 5px;
+  }
+
+  input::placeholder {
+    opacity: 1;
   }
 }
 

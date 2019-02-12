@@ -157,6 +157,7 @@ input::placeholder {
   font-size: 15px;
   color: $placeholder-text-color;
   padding-left: 22px;
+  opacity: 0;
 }
 
 .form-text:last-of-type {

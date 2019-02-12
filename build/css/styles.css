@@ -522,18 +522,21 @@ input::-webkit-input-placeholder {
   font-size: 15px;
   color: #cccccc;
   padding-left: 22px;
+  opacity: 0;
 }
 
 input::-ms-input-placeholder {
   font-size: 15px;
   color: #cccccc;
   padding-left: 22px;
+  opacity: 0;
 }
 
 input::placeholder {
   font-size: 15px;
   color: #cccccc;
   padding-left: 22px;
+  opacity: 0;
 }
 
 .form-text:last-of-type {
@@ -623,7 +626,7 @@ input::placeholder {
 
   .progress__text {
     line-height: 22px;
-    letter-spacing: 0.80px;
+    letter-spacing: 0.8px;
   }
 
   .progress-bar {
@@ -673,6 +676,18 @@ input::placeholder {
   input {
     position: absolute;
     margin-top: 5px;
+  }
+
+  input::-webkit-input-placeholder {
+    opacity: 1;
+  }
+
+  input::-ms-input-placeholder {
+    opacity: 1;
+  }
+
+  input::placeholder {
+    opacity: 1;
   }
 }
 
