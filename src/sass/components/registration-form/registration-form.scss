@@ -15,8 +15,8 @@
 }
 
 .registration-section {
-  width: 310px;
-  height: 543px;
+  width: 297px;
+  height: 623px;
   position: absolute;
   top: 14%;
   left: 50%;
@@ -41,7 +41,7 @@
 }
 
 .registration__form {
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 
 .registration__content {
@@ -56,8 +56,8 @@
 }
 
 .progress-bar {
-  width: 279px;
-  height: 13px;
+  width: 258px;
+  height: 18px;
   margin-bottom: 12px;
   background-color: #ebebeb;
   background-image: linear-gradient(
@@ -72,8 +72,8 @@
 .progress-line {
   position: absolute;
   left: 0;
-  width: 223px;
-  height: 13px;
+  width: 200px;
+  height: 18px;
   background-color: #bad3ff;
   background-image: linear-gradient(270deg, #6ea3ff 0%, transparent 100%);
   box-shadow: 0 8px 12px rgba(125, 173, 255, 0.28);
@@ -83,18 +83,18 @@
     display: inline-block;
     background-image: url("../images/progress-bar/bars.png");
     opacity: 0.3;
-    width: 223px;
-    height: 13px;
+    width: 200px;
+    height: 18px;
   }
 }
 
 .progress__desc {
   @extend .primary-text-style;
   font-weight: 500;
-  font-size: 6px;
+  font-size: 12px;
   position: absolute;
-  right: 42%;
-  top: 27%;
+  right: 34%;
+  top: 15%;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
   color: $primary-light-color;
   letter-spacing: 1.68px;
@@ -112,8 +112,8 @@
 
 .form-text {
   @extend .primary-text-style;
-  font-size: 12px;
-  line-height: 19px;
+  font-size: 13px;
+  line-height: 21px;
   font-weight: 500;
   cursor: default;
 }
@@ -134,18 +134,17 @@
 }
 
 input {
+  @extend .primary-text-style;
   border: none;
   width: 98%;
   background-color: transparent;
   border-bottom: 1px solid $marked-text-color;
-  margin-top: 0px;
-  margin-left: 5px;
-  padding-bottom: 2px;
+  font-size: 16px;
 }
 
 .phone-input {
   position: absolute;
-  width: 56%;
+  width: 48%;
 }
 
 input:focus {
@@ -154,7 +153,7 @@ input:focus {
 
 input::placeholder {
   @extend .primary-text-style;
-  font-size: 15px;
+  font-size: 16px;
   color: $placeholder-text-color;
   padding-left: 22px;
   opacity: 0;
@@ -167,8 +166,8 @@ input::placeholder {
 .registration__btn {
   @extend .primary-text-style;
   margin: 0 auto;
-  padding: 17px 24px 16px;
-  font-size: 12px;
+  padding: 17px 21px 16px;
+  font-size: 11px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;

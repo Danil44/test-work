@@ -353,6 +353,7 @@ a {
 .progress__text,
 .form-text,
 .text__marked,
+input,
 input::-webkit-input-placeholder,
 .registration__btn,
 .registration__safety {
@@ -366,6 +367,7 @@ input::-webkit-input-placeholder,
 .progress__text,
 .form-text,
 .text__marked,
+input,
 input::-ms-input-placeholder,
 .registration__btn,
 .registration__safety {
@@ -379,6 +381,7 @@ input::-ms-input-placeholder,
 .progress__text,
 .form-text,
 .text__marked,
+input,
 input::placeholder,
 .registration__btn,
 .registration__safety {
@@ -388,8 +391,8 @@ input::placeholder,
 }
 
 .registration-section {
-  width: 310px;
-  height: 543px;
+  width: 297px;
+  height: 623px;
   position: absolute;
   top: 14%;
   left: 50%;
@@ -415,7 +418,7 @@ input::placeholder,
 }
 
 .registration__form {
-  margin-bottom: 27px;
+  margin-bottom: 20px;
 }
 
 .registration__content {
@@ -430,8 +433,8 @@ input::placeholder,
 }
 
 .progress-bar {
-  width: 279px;
-  height: 13px;
+  width: 258px;
+  height: 18px;
   margin-bottom: 12px;
   background-color: #ebebeb;
   background-image: linear-gradient(180deg, rgba(215, 215, 215, 0.12) 0%, rgba(255, 255, 255, 0.12) 100%);
@@ -442,8 +445,8 @@ input::placeholder,
 .progress-line {
   position: absolute;
   left: 0;
-  width: 223px;
-  height: 13px;
+  width: 200px;
+  height: 18px;
   background-color: #bad3ff;
   background-image: linear-gradient(270deg, #6ea3ff 0%, transparent 100%);
   box-shadow: 0 8px 12px rgba(125, 173, 255, 0.28);
@@ -454,16 +457,16 @@ input::placeholder,
   display: inline-block;
   background-image: url("../images/progress-bar/bars.png");
   opacity: 0.3;
-  width: 223px;
-  height: 13px;
+  width: 200px;
+  height: 18px;
 }
 
 .progress__desc {
   font-weight: 500;
-  font-size: 6px;
+  font-size: 12px;
   position: absolute;
-  right: 42%;
-  top: 27%;
+  right: 34%;
+  top: 15%;
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.14);
   color: #ffffff;
   letter-spacing: 1.68px;
@@ -479,8 +482,8 @@ input::placeholder,
 }
 
 .form-text {
-  font-size: 12px;
-  line-height: 19px;
+  font-size: 13px;
+  line-height: 21px;
   font-weight: 500;
   cursor: default;
 }
@@ -504,14 +507,12 @@ input {
   width: 98%;
   background-color: transparent;
   border-bottom: 1px solid #ff8d52;
-  margin-top: 0px;
-  margin-left: 5px;
-  padding-bottom: 2px;
+  font-size: 16px;
 }
 
 .phone-input {
   position: absolute;
-  width: 56%;
+  width: 48%;
 }
 
 input:focus {
@@ -519,21 +520,21 @@ input:focus {
 }
 
 input::-webkit-input-placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #cccccc;
   padding-left: 22px;
   opacity: 0;
 }
 
 input::-ms-input-placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #cccccc;
   padding-left: 22px;
   opacity: 0;
 }
 
 input::placeholder {
-  font-size: 15px;
+  font-size: 16px;
   color: #cccccc;
   padding-left: 22px;
   opacity: 0;
@@ -545,8 +546,8 @@ input::placeholder {
 
 .registration__btn {
   margin: 0 auto;
-  padding: 17px 24px 16px;
-  font-size: 12px;
+  padding: 17px 21px 16px;
+  font-size: 11px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
@@ -575,21 +576,17 @@ input::placeholder {
   ##Screen = 1281px to higher resolution desktops
 */
 
-/* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
-
-@media (min-width: 1281px) {
+@media (min-width: 1024px) {
   .primary-text-style,
   .progress__desc,
   .progress__text,
   .form-text,
   .text__marked,
+  input,
   input::-webkit-input-placeholder,
   .registration__btn,
   .registration__safety {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .primary-text-style,
@@ -597,10 +594,11 @@ input::placeholder {
   .progress__text,
   .form-text,
   .text__marked,
+  input,
   input::-ms-input-placeholder,
   .registration__btn,
   .registration__safety {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .primary-text-style,
@@ -608,15 +606,16 @@ input::placeholder {
   .progress__text,
   .form-text,
   .text__marked,
+  input,
   input::placeholder,
   .registration__btn,
   .registration__safety {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .registration-section {
     width: 820px;
-    min-height: 629px;
+    min-height: 700px;
     top: 15%;
   }
 
@@ -627,6 +626,7 @@ input::placeholder {
   .progress__text {
     line-height: 22px;
     letter-spacing: 0.8px;
+    font-size: 19px;
   }
 
   .progress-bar {
@@ -635,13 +635,19 @@ input::placeholder {
     margin-bottom: 14px;
   }
 
+  .progress__desc {
+    font-size: 17px;
+    right: 42%;
+    top: 18%;
+  }
+
   .progress-line {
-    width: 516px;
+    width: 490px;
     height: 28px;
   }
 
   .progress-line::before {
-    width: 516px;
+    width: 490px;
     height: 28px;
   }
 
@@ -650,14 +656,22 @@ input::placeholder {
     margin: 81px auto 50px;
   }
 
+  .registration__form {
+    margin-bottom: 41px;
+  }
+
   .registration__btn {
-    padding: 23px 173px 24px;
-    letter-spacing: 1px;
+    padding: 24px 167px;
+    font-size: 16px;
   }
 
   .form-text {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 26px;
+  }
+
+  .text__marked {
+    font-size: 17px;
   }
 
   .form-text:last-of-type {
@@ -673,26 +687,43 @@ input::placeholder {
     line-height: 19px;
   }
 
+  .phone-input {
+    position: absolute;
+    width: 90%;
+  }
+
   input {
     position: absolute;
-    margin-top: 5px;
+    margin-left: 5px;
   }
 
   input::-webkit-input-placeholder {
+    font-size: 16px;
     opacity: 1;
   }
 
   input::-ms-input-placeholder {
+    font-size: 16px;
     opacity: 1;
   }
 
   input::placeholder {
+    font-size: 16px;
     opacity: 1;
+  }
+
+  input::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 3;
+  }
+
+  .registration__safety {
+    font-size: 17px;
   }
 }
 
-@media (max-width: 1280px) {
+@media (max-width: 1023px) {
   .container {
-    padding: 0 7px;
+    padding: 0 20px;
   }
 }

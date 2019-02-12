@@ -3,14 +3,14 @@
   ##Screen = 1281px to higher resolution desktops
 */
 
-@media (min-width: 1281px) {
+@media (min-width: 1024px) {
   .primary-text-style {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .registration-section {
     width: 820px;
-    min-height: 629px;
+    min-height: 700px;
     top: 15%;
   }
 
@@ -21,6 +21,7 @@
   .progress__text {
     line-height: 22px;
     letter-spacing: 0.8px;
+    font-size: 19px;
   }
 
   .progress-bar {
@@ -29,12 +30,18 @@
     margin-bottom: 14px;
   }
 
+  .progress__desc {
+    font-size: 17px;
+    right: 42%;
+    top: 18%;
+  }
+
   .progress-line {
-    width: 516px;
+    width: 490px;
     height: 28px;
 
     &::before {
-      width: 516px;
+      width: 490px;
       height: 28px;
     }
   }
@@ -44,14 +51,22 @@
     margin: 81px auto 50px;
   }
 
+  .registration__form {
+    margin-bottom: 41px;
+  }
+
   .registration__btn {
-    padding: 23px 173px 24px;
-    letter-spacing: 1px;
+    padding: 24px 167px;
+    font-size: 16px;
   }
 
   .form-text {
-    font-size: 15px;
+    font-size: 20px;
     line-height: 26px;
+  }
+
+  .text__marked {
+    font-size: 17px;
   }
 
   .form-text:last-of-type {
@@ -67,21 +82,27 @@
     line-height: 19px;
   }
 
+  .phone-input {
+    position: absolute;
+    width: 90%;
+  }
+
   input {
     position: absolute;
-    margin-top: 5px;
+    margin-left: 5px;
   }
 
   input::placeholder {
+    font-size: 16px;
     opacity: 1;
   }
-}
 
-/* 
-    ##Device = Laptops, Desktops
-    ##Screen = B/w 1025px to 1280px
-  */
+  input::-webkit-input-placeholder {
+    font-size: 18px;
+    line-height: 3;
+  }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  //CSS
+  .registration__safety {
+    font-size: 17px;
+  }
 }
