@@ -454,7 +454,7 @@ input::placeholder,
   display: inline-block;
   background-image: url("../images/progress-bar/bars.png");
   opacity: 0.3;
-  width: 220px;
+  width: 223px;
   height: 13px;
 }
 
@@ -641,7 +641,7 @@ input::placeholder {
   }
 
   .progress-line::before {
-    width: 650px;
+    width: 516px;
     height: 28px;
   }
 
