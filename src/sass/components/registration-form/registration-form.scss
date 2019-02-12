@@ -10,15 +10,15 @@
 
 .primary-text-style {
   font-family: $primary-font-stack;
-  font-size: 14px;
+  font-size: 12px;
   color: $primary-text-color;
 }
 
 .registration-section {
-  width: 820px;
-  min-height: 629px;
+  width: 310px;
+  height: 543px;
   position: absolute;
-  top: 15%;
+  top: 14%;
   left: 50%;
   transform: translate(-50%);
   background-color: $primary-light-color;
@@ -45,20 +45,20 @@
 }
 
 .registration__content {
-  width: 651px;
-  margin: 81px auto 50px;
+  width: 300px;
+  margin: 36px auto 50px;
   overflow: hidden;
   position: relative;
 }
 
 .registration__progress {
-  margin-bottom: 45px;
+  margin-bottom: 24px;
 }
 
 .progress-bar {
-  width: 650px;
-  height: 28px;
-  margin-bottom: 14px;
+  width: 279px;
+  height: 13px;
+  margin-bottom: 12px;
   background-color: #ebebeb;
   background-image: linear-gradient(
     180deg,
@@ -68,11 +68,12 @@
   box-shadow: inset 0 3px 4.9px 0.1px rgba(0, 0, 0, 0.06);
   position: relative;
 }
+
 .progress-line {
   position: absolute;
   left: 0;
-  width: 516px;
-  height: 28px;
+  width: 223px;
+  height: 13px;
   background-color: #bad3ff;
   background-image: linear-gradient(270deg, #6ea3ff 0%, transparent 100%);
   box-shadow: 0 8px 12px rgba(125, 173, 255, 0.28);
@@ -82,14 +83,15 @@
     display: inline-block;
     background-image: url("../images/progress-bar/bars.png");
     opacity: 0.3;
-    width: 516px;
-    height: 28px;
+    width: 220px;
+    height: 13px;
   }
 }
 
 .progress__desc {
   @extend .primary-text-style;
   font-weight: 500;
+  font-size: 6px;
   position: absolute;
   right: 42%;
   top: 27%;
@@ -99,28 +101,30 @@
   cursor: default;
 }
 
-.registration__progress > span {
+.progress__text {
   @extend .primary-text-style;
+  font-size: 12px;
   color: $secondary-text-color;
-  letter-spacing: 0.56px;
-  line-height: 22px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
   cursor: default;
 }
 
 .form-text {
   @extend .primary-text-style;
-  font-size: 15px;
-  line-height: 26px;
+  font-size: 12px;
+  line-height: 19px;
   font-weight: 500;
   cursor: default;
 }
 
 .name-field {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .email-field {
-  margin-bottom: 10px;
+  margin-bottom: 0px;
+  line-height: 14px;
 }
 
 .text__marked {
@@ -131,13 +135,17 @@
 
 input {
   border: none;
-  position: absolute;
-  width: 90%;
+  width: 98%;
   background-color: transparent;
   border-bottom: 1px solid $marked-text-color;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-left: 5px;
   padding-bottom: 2px;
+}
+
+.phone-input {
+  position: absolute;
+  width: 56%;
 }
 
 input:focus {
@@ -152,17 +160,18 @@ input::placeholder {
 }
 
 .form-text:last-of-type {
-  margin-bottom: 51px;
+  margin-bottom: 38px;
 }
 
 .registration__btn {
   @extend .primary-text-style;
   margin: 0 auto;
-  padding: 23px 173px 24px;
+  padding: 17px 24px 16px;
+  font-size: 12px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 800;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   color: $primary-light-color;
   background-color: #feaa54;
   background-image: linear-gradient(

@@ -1,0 +1,83 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  .primary-text-style {
+    font-size: 14px;
+  }
+
+  .registration-section {
+    width: 820px;
+    min-height: 629px;
+    top: 15%;
+  }
+
+  .registration__progress {
+    margin-bottom: 45px;
+  }
+
+  .progress__text {
+    line-height: 22px;
+    letter-spacing: 0.80px;
+  }
+
+  .progress-bar {
+    width: 650px;
+    height: 28px;
+    margin-bottom: 14px;
+  }
+
+  .progress-line {
+    width: 516px;
+    height: 28px;
+
+    &::before {
+      width: 650px;
+      height: 28px;
+    }
+  }
+
+  .registration__content {
+    width: 651px;
+    margin: 81px auto 50px;
+  }
+
+  .registration__btn {
+    padding: 23px 173px 24px;
+    letter-spacing: 1px;
+  }
+
+  .form-text {
+    font-size: 15px;
+    line-height: 26px;
+  }
+
+  .form-text:last-of-type {
+    margin-bottom: 59px;
+  }
+
+  .name-field {
+    margin-bottom: 10px;
+  }
+
+  .email-field {
+    margin-bottom: 10px;
+    line-height: 19px;
+  }
+
+  input {
+    position: absolute;
+    margin-top: 5px;
+  }
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  //CSS
+}
